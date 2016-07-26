@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		331E8FCE1D406E5D00A2735A /* viewTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 331E8FCD1D406E5D00A2735A /* viewTwo.m */; };
 		3331E56F1D3DC20400097BC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3331E56E1D3DC20400097BC9 /* main.m */; };
 		3331E5721D3DC20400097BC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3331E5711D3DC20400097BC9 /* AppDelegate.m */; };
 		3331E5751D3DC20400097BC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3331E5741D3DC20400097BC9 /* ViewController.m */; };
@@ -15,6 +16,9 @@
 		3331E57D1D3DC20400097BC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3331E57B1D3DC20400097BC9 /* LaunchScreen.storyboard */; };
 		3331E5881D3DC20400097BC9 /* AnimationForSJTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3331E5871D3DC20400097BC9 /* AnimationForSJTests.m */; };
 		3331E5931D3DC20400097BC9 /* AnimationForSJUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3331E5921D3DC20400097BC9 /* AnimationForSJUITests.m */; };
+		3331E5A21D3DC46600097BC9 /* viewOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 3331E5A11D3DC46600097BC9 /* viewOne.m */; };
+		337EC1751D41F9EE00FC639E /* viewThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 337EC1741D41F9EE00FC639E /* viewThree.m */; };
+		33C66FA31D4453D3002659DA /* viewFour.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C66FA21D4453D3002659DA /* viewFour.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		331E8FCC1D406E5D00A2735A /* viewTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viewTwo.h; sourceTree = "<group>"; };
+		331E8FCD1D406E5D00A2735A /* viewTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viewTwo.m; sourceTree = "<group>"; };
 		3331E56A1D3DC20400097BC9 /* AnimationForSJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationForSJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3331E56E1D3DC20400097BC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3331E5701D3DC20400097BC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		3331E58E1D3DC20400097BC9 /* AnimationForSJUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationForSJUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3331E5921D3DC20400097BC9 /* AnimationForSJUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationForSJUITests.m; sourceTree = "<group>"; };
 		3331E5941D3DC20400097BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3331E5A01D3DC46600097BC9 /* viewOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viewOne.h; sourceTree = "<group>"; };
+		3331E5A11D3DC46600097BC9 /* viewOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viewOne.m; sourceTree = "<group>"; };
+		337EC1731D41F9EE00FC639E /* viewThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viewThree.h; sourceTree = "<group>"; };
+		337EC1741D41F9EE00FC639E /* viewThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viewThree.m; sourceTree = "<group>"; };
+		33C66FA11D4453D3002659DA /* viewFour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viewFour.h; sourceTree = "<group>"; };
+		33C66FA21D4453D3002659DA /* viewFour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viewFour.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,7 @@
 		3331E56C1D3DC20400097BC9 /* AnimationForSJ */ = {
 			isa = PBXGroup;
 			children = (
+				3331E5A31D3DC46C00097BC9 /* View */,
 				3331E5701D3DC20400097BC9 /* AppDelegate.h */,
 				3331E5711D3DC20400097BC9 /* AppDelegate.m */,
 				3331E5731D3DC20400097BC9 /* ViewController.h */,
@@ -138,6 +151,21 @@
 				3331E5941D3DC20400097BC9 /* Info.plist */,
 			);
 			path = AnimationForSJUITests;
+			sourceTree = "<group>";
+		};
+		3331E5A31D3DC46C00097BC9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3331E5A01D3DC46600097BC9 /* viewOne.h */,
+				3331E5A11D3DC46600097BC9 /* viewOne.m */,
+				331E8FCC1D406E5D00A2735A /* viewTwo.h */,
+				331E8FCD1D406E5D00A2735A /* viewTwo.m */,
+				337EC1731D41F9EE00FC639E /* viewThree.h */,
+				337EC1741D41F9EE00FC639E /* viewThree.m */,
+				33C66FA11D4453D3002659DA /* viewFour.h */,
+				33C66FA21D4453D3002659DA /* viewFour.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,8 +299,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3331E5751D3DC20400097BC9 /* ViewController.m in Sources */,
+				337EC1751D41F9EE00FC639E /* viewThree.m in Sources */,
+				331E8FCE1D406E5D00A2735A /* viewTwo.m in Sources */,
+				3331E5A21D3DC46600097BC9 /* viewOne.m in Sources */,
 				3331E5721D3DC20400097BC9 /* AppDelegate.m in Sources */,
 				3331E56F1D3DC20400097BC9 /* main.m in Sources */,
+				33C66FA31D4453D3002659DA /* viewFour.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +528,7 @@
 				3331E5991D3DC20400097BC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3331E59A1D3DC20400097BC9 /* Build configuration list for PBXNativeTarget "AnimationForSJTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +537,7 @@
 				3331E59C1D3DC20400097BC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3331E59D1D3DC20400097BC9 /* Build configuration list for PBXNativeTarget "AnimationForSJUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +546,7 @@
 				3331E59F1D3DC20400097BC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
